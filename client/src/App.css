@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.nav-active {
+  background-color: #1abc9c;
+}
+
+.navbar {
+  transition: 0.5s;
+  animation: animationNav 1s ease-in-out;
+}
+
+@keyframes animationNav {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav-custom a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.nav-custom a:hover {
+  color: #1abc9c !important;
+}
+
+.tk i {
+  line-height: normal;
+}
+
+#admin {
+  margin-left: 8px;
+  margin-top: 5px;
+  transition: 0.5s;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+#admin li:hover {
+  text-decoration: underline;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-group .text-register {
+  font-size: 25px !important;
+  font-weight: bold;
+}
+
+.register {
+  transition: 0.5s;
+  animation: animationRegister 1s ease-in-out;
+}
+
+@keyframes animationRegister {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.onVali {
+  color: red !important;
+  animation: valiAnimation 1s;
+  transition: 0.5s;
+}
+
+.offVali {
+  display: none;
+  animation: valiAnimation 1s;
+  transition: 0.5s;
+}
+
+@keyframes valiAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card-go-to-email {
+  transition: 0.5s;
+  animation: animationRegister 1s ease-in-out;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  min-height: 350px;
+}
+
+.card-go-to-email .card-body {
+  padding-top: 70px;
+}
+
+.card-final-register {
+  transition: 0.5s;
+  animation: animationRegister 1s ease-in-out;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  min-height: 350px;
+}
+
+.card-final-register .card-body {
+  padding-top: 30px;
+}
+
+.text-login {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.login {
+  transition: 0.5s;
+  animation: animationLogin 1s ease-in-out;
+}
+
+@keyframes animationLogin {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Profile */
+.rdw-editor-wrapper {
+  border: 1px solid black;
+}
+
+.rdw-editor-toolbar {
+  margin-bottom: 0 !important;
+}
+
+.rdw-editor-main {
+  background-color: white;
+  padding-left: 10px;
+}
+
+.marginLeft-91 {
+  margin-left: 91px;
+}
+
+.h-199 {
+  height: 199px;
+}
+
+.edit-profile {
+  color: #abadb0;
+}
+
+.edit-profile:hover {
+  color: #6e7074;
+}
